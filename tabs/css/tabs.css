@@ -1,0 +1,50 @@
+/* Tab */
+	.tabs li {
+		list-style-type:none;
+		float: left;
+		margin-left: 10px;
+		padding: 0px;
+	}
+
+	.tabs a {
+		font-family: WCManoNegraBta;
+		font-size: 32px;
+		color: white;
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		width: 240px;
+		padding: 0px;
+		background-color: rgb(134,146,154);
+		position: relative;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+	}
+
+	.tabs a.active {
+		background-color: #9ecddc;
+	}
+
+	.tabs a:hover {
+		background-color:  #9ecddc;
+	}
+
+	.tab-container {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.tab-content {
+		width: 100%;
+		position: relative;
+	}
+
+	.tab-content > div {
+		background-color: white;
+		padding: 20px;
+	}
+
+	.clear {
+		clear: both;
+	}
